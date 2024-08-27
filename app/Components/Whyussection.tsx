@@ -9,7 +9,7 @@ const Whyussection = () => {
         <div>
             <h4 className="font-bold text-gray-700  text-xl text-center mt-24">WHY NEXUS?</h4>
             <h4 className="font-semibold text-4xl lg:mx-80 md:text-5xl text-center mt-3 mx-10 leading-none text-gray-800 tracking-tight">We Turn Challenges into Opportunities for <span className="underline text-blue-700 font-bold">your business.</span></h4>
-            <p className="mt-14 mx-10 lg:mx-80 text-center text-gray-900 text-lg">Whether you're running a major corporation, managing a multi-location operation, or leading a small business, Nexus Minds uses innovative IT solutions to streamline your processes and cut costs effectively.</p>
+            <p className="mt-14 mx-10 lg:mx-80 text-center text-gray-900 text-lg">Whether you&apos;re running a major corporation, managing a multi-location operation, or leading a small business, Nexus Minds uses innovative IT solutions to streamline your processes and cut costs effectively.</p>
         </div>
         <div className="flex flex-col lg:flex-row mt-10 items-center justify-center md:gap-10 gap-10 px-10"> 
         <div className="bg-highway-image bg-cover bg-center flex flex-col w-full h-full items-center rounded-xl overflow-hidden">

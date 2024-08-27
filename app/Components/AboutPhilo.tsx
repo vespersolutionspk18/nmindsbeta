@@ -9,7 +9,7 @@ const AboutPhilo = () => {
         <div>
           
             <h4 className="font-semibold text-4xl lg:mx-80 md:text-5xl text-center mt-3 md:mt-24 mx-10 leading-none text-gray-800 tracking-tight">The <span className="underline text-blue-700 font-bold">Nexus way</span></h4>
-            <p className="mt-10 mx-10 lg:mx-80 text-center text-gray-900 text-xl md:mb-10">As a top IT company, <b>we're uniquely positioned to partner with the world’s largest businesses</b> in their transformation journeys.</p>
+            <p className="mt-10 mx-10 lg:mx-80 text-center text-gray-900 text-xl md:mb-10">As a top IT company, <b>we&apos;re uniquely positioned to partner with the world’s largest businesses</b> in their transformation journeys.</p>
         </div>
         <div className="flex flex-col lg:flex-row mt-10 items-center justify-center md:gap-10 gap-10 px-10"> 
         <div className="bg-darkcity-image bg-cover bg-center flex flex-col w-full h-full items-center rounded-xl overflow-hidden">
