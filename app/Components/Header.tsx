@@ -5,22 +5,10 @@ import RightArrow from "@/public/assets/right.svg";
 import ButtonArrow from "@/public/assets/buttonarrow.svg"; 
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuIndicator,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger,
-    NavigationMenuViewport,
-  } from "@/components/ui/navigation-menu"
-  import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
-import Link from 'next/link';
 import { NavigationMenuDemo } from './headMenuNav';
 
 const Header = () => {
-    const router = useRouter();
+  const router = useRouter();
   const [isVisible, setIsVisible] = useState(true);
 
   const getInTouchClick = () => {

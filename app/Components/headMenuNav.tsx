@@ -101,7 +101,7 @@ export function NavigationMenuDemo() {
 
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
+  React.ComponentPropsWithoutRef<"a"> & { href: string; title: string }
 >(({ className, title, children, href, ...props }, ref) => {
   return (
     <li>
@@ -122,5 +122,5 @@ const ListItem = React.forwardRef<
       </Link>
     </li>
   )
-})
-ListItem.displayName = "ListItem"
+});
+ListItem.displayName = "ListItem";
