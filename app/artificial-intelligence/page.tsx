@@ -61,7 +61,7 @@ const page = () => {
             </div>
             <div className="lg:w-1/2 flex my-10 lg:my-0 flex-col  justify-centerl">
               <h3 className="text-gray-800 text-5xl font-medium">Harness the <span className="font-semibold underline">Power of AI</span></h3>
-              <p className="text-lg tracking-tight mt-5 text-justify">Adapting to the latest advancements in AI technology is crucial for staying ahead in today's competitive market. Our dedicated team uses state-of-the-art techniques to craft solutions that transform your business processes, enhancing efficiency and decision-making. From developing sophisticated algorithms to implementing intelligent systems, our AI solutions are tailored to elevate your operations and drive innovation.</p>
+              <p className="text-lg tracking-tight mt-5 text-justify">Adapting to the latest advancements in AI technology is crucial for staying ahead in today&apos;s competitive market. Our dedicated team uses state-of-the-art techniques to craft solutions that transform your business processes, enhancing efficiency and decision-making. From developing sophisticated algorithms to implementing intelligent systems, our AI solutions are tailored to elevate your operations and drive innovation.</p>
             </div>
           </div>
           <div className="flex flex-row gap-7">
